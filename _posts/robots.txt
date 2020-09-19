@@ -3,4 +3,4 @@ Allow: /
 
 Sitemap: https://seoblog.kr/sitemap.xml
 
-DaumWebMasterTool:9bc6c26b5bd6d8a6d9d0e52150b611c2a374f32198a6a295d9a0920b2f04b508:SkzY+iibjkK3lYUDIfzDEw==
+DaumWebMasterTool:cf942432109a08a48275b2b80e303de52afcd77471cb648f6dc64367156df5da:SkzY+iibjkK3lYUDIfzDEw==
