@@ -94,9 +94,11 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{ site.github.url }}/img/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
   <!-- End Favicon Tag -->
 
-{% if page.feature %}
+  <!--구조화된 데이터-->
+{% if page.feature %} <!--페이지에서만 보이게 해주세요-->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -109,4 +111,23 @@
     }
     </script>
 {% endif %}
+
+<!--네이버 연관 사이트 입력하기-->
+<script type="application/ld+json">
+  {
+   "@context": "http://schema.org",
+   "@type": "Person",
+   "name": "{{ site.title }}",
+   "url": "{{ site.url }}",
+   "sameAs": [
+     "https://sijin.me",
+     "https://sijinii.com",
+     "https://youtube.com/c/sijinii",
+     "https://www.facebook.com/sijin90"
+   ]
+  }
+</script>
+
+<meta name="naver-site-verification" content="27aa29c9d4efadcf0b12d86a0440c1b8fcbceb4e" />
+
 </head>
