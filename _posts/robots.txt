@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://seoblog.kr/sitemap.xml
+
+DaumWebMasterTool:9bc6c26b5bd6d8a6d9d0e52150b611c2a374f32198a6a295d9a0920b2f04b508:SkzY+iibjkK3lYUDIfzDEw==
