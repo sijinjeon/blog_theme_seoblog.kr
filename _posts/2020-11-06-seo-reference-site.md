@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /seo-reference-site/
-title: '검색엔진 최적화(SEO) 참고 사이트 리스트'
+title: '검색엔진 최적화(SEO) 참고 사이트 추천'
 date: 2020-11-06 23:49:00 +09:00
 feature: '/img/posts/05/blog_post_thumbnail5.jpg'
 background: '/img/posts/05/blog_post_header5.jpg'
