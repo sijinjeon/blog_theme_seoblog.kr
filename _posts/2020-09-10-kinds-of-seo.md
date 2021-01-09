@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /kinds-of-seo/
+permalink: /posts/kinds-of-seo/
 title: '검색 엔진 최적화 SEO의 종류를 알아보자'
 date: 2020-09-11 00:42:00 +09:00
 feature: '/img/posts/02/blog_post_thumbnail2.jpg'

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /seo-checklist/
+permalink: /posts/seo-checklist/
 title: '검색 엔진 최적화(SEO) 체크리스트'
 date: 2020-10-04 16:02:00 +09:00
 feature: '/img/posts/04/blog_post_thumbnail4.jpg'

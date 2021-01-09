@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /seo-proscess/
+permalink: /posts/seo-proscess/
 title: '검색 엔진 최적화(SEO) 시작하는 방법'
 date: 2020-09-26 14:56:00 +09:00
 feature: '/img/posts/03/blog_post_thumbnail3.jpg'

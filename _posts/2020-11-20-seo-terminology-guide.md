@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /seo-terminology-guide/
+permalink: /posts/seo-terminology-guide/
 title: '검색엔진 최적화(SEO) 용어 가이드'
 date: 2020-11-20 23:42:00 +09:00
 feature: '/img/posts/06/blog_post_thumbnail6.jpg'

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /what-is-seo/
+permalink: /posts/what-is-seo/
 title: '검색엔진 최적화(SEO)가 무엇인지 알아보자'
 date: 2020-09-05 11:06:00 +09:00
 feature: '/img/posts/01/blog_post_thumbnail.jpg'
