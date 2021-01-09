@@ -123,6 +123,18 @@
       "datePublished": "{{ page.date }}"
     }
     </script>
+
+    <script>
+      var eventF = function () {
+        dataLayer.push({
+          'event': 'page.title'
+          'name': 'page.name'
+        });
+      }
+    
+      var view = document.title ({{ page.title }});
+    </script>
+
   {% endif %}
 
   <!--네이버 연관 사이트 입력하기-->
