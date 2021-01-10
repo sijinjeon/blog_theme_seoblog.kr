@@ -125,14 +125,11 @@
     </script>
 
     <script>
-      var eventT = function () {
-        dataLayer.push({
-          'event': 'page.title'
-          'name': 'page.name'
+      dataLayer.push({
+          event: 'pageview',
+          title: {{ page.title }}
+          }
         });
-      }
-    
-      var title = {{ page.title }}
     </script>
     <!-- 이벤트를 정의한다. 페이지타이틀을 불러온다. 자바스크립트에 넣는다. -->
 
