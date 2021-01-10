@@ -12,7 +12,7 @@
 
   <title>
     {%if page.title %}
-    {{ page.title }} - {{ site.title }}
+    {{ page.title }}
     {% else %}
     {{ site.title }} - {{ site.tagline }}
     {% endif %}
@@ -127,7 +127,7 @@
     <script>
       dataLayer.push({
           'event': 'pageview',
-          'title': '{{ post-title }}'
+          'title': '{{ page.title }}'
         });
     </script>
 
