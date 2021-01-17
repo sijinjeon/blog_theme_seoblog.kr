@@ -46,6 +46,14 @@ layout: default
 
             {% include disqus.html %}
             
+            <script>
+              dataLayer.push({
+                  'event': 'pageView',
+                  'pageTitle': '{{ page.title }}',
+                  'type': 'post'
+                });
+            </script>
+
           </div>
 
         </div>
