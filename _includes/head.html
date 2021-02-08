@@ -124,12 +124,7 @@
     }
     </script>
 
-    <script>
-      dataLayer.push({
-          'event': 'pageView',
-          'pageTitle': '{{ page.title }}'
-        });
-    </script>
+
 
     <!-- 이벤트를 정의한다. 페이지타이틀을 불러온다. 자바스크립트에 넣는다. -->
 
@@ -152,5 +147,32 @@
 </script>
 
   <meta name="naver-site-verification" content="27aa29c9d4efadcf0b12d86a0440c1b8fcbceb4e" />
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ko_KR/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="272505300317881"
+    theme_color="#0A7CFF"
+    logged_in_greeting="안녕하세요? 무엇을 도와드릴까요?"
+    logged_out_greeting="안녕하세요? 무엇을 도와드릴까요?">
+    </div>
 
 </head>
