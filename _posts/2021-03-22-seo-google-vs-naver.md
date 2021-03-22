@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /posts/seo-google-vs-naver/
+permalink: /posts/seo-google-vs-naver-2/
 title: '구글과 네이버의 검색 엔진 비교 2탄'
 date: 2021-03-22 22:36:00 +09:00
 feature: '/img/posts/08/blog_post_thumbnail8.jpg'
