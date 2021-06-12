@@ -1,0 +1,112 @@
+<div class="bsMainMdChoiceBanner">
+    <!--@css(/css/module/layout/bs_main_md_choice.css)-->
+    <div class="mdChoiceBannerInner bsColorChangeW">
+        <div class="bsTriggerC">
+            <h3>RARECARE'S CHOICE</h3>
+            <span>COS에서 엄선한 제품을 당신께 소개합니다.</span>
+            <a href="/product/list.html?cate_no=44">더 보기</a>
+        </div>
+    </div>            
+</div>        
+<div class="bsMainMdChoicePrd">
+    <div class="mdChoicePrdInner">
+        <div module="product_listmain_1" class="ec-base-product bsType1">
+            <!--
+                $count = 20
+            -->                    
+            <h3>엠디 초이스</h3>
+            <ul class="prdList bx-slider2">                    
+                <li id="anchorBoxId_{$product_no}" class="bsFade">
+                    <div class="thumbnail">
+                        <div class="prdImg">
+                            <a href="{$link_product_detail}" name="anchorBoxName_{$product_no}">
+                                <img src="{$image_medium}" id="{$image_medium_id}" class="bsPrdImage" alt="{$seo_alt_tag}" />
+                                <img src="{$image_small}" id="{$image_small_id}" class="bsPrdImageOver" alt="{$seo_alt_tag}" />
+                                <span module="product_Imagestyle"><span class="prdIcon {$icon_class_name}" style="background-image:url('{$icon_url}');"></span></span>
+                            </a>
+                            <div class="icon">               
+                                <div class="button">
+                                    <span class="option">{$option_preview_icon}</span><span class="bsWish">{$list_wish_icon}</span><span class="bsCart">{$basket_icon}</span><span class="bsZoom">{$zoom_icon}</span><span class="bsNewWindow"><a href="{$link_product_detail}" target="_blank"><img src="/web/upload/badasonamu/image/icon/bs_icon_prd_new_window.png" art="새 창으로 열기" /></a></span>
+                                </div>
+                            </div> 
+                            <div class="likeButton {$disp_likeprd_class} bsFadeOver">
+                                <button type="button"><span class="title">LIKE</span>{$disp_likeprd_icon}<span class="count">{$disp_likeprd_count}</span></button>
+                            </div>                                   
+                            <div class="bsPromotion"><span class="bsDisplayNone">{$soldout_icon}</span> {$stock_icon} {$recommend_icon} {$new_icon} {$product_icons} {$pickup_icon} {$benefit_icons}</div>
+                            <div class="bsDiscountRate" data-custom="{$product_custom}" data-price="{$product_price}"></div>     
+                            <div class="bsDiscountRate2 {$prd_price_sale|display}">{$prd_price_sale|replace:OFF,}</div>
+                        </div>
+                        
+                        <div class="bsWrap">
+                            <div class="bsInner">
+                                <a href="{$link_product_detail}">
+                                    <div class="description">
+                                        <span class="chk"><input type="checkbox" class="{$product_compare_class} {$product_compare_display|display}" /></span>
+                                        <strong class="name {$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</strong>
+                                        <ul module="product_ListItem" class="spec">
+                                            <li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                            <li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                    <div class="bs_time_sale {$product_promotion_date|display}">             
+                        <div>
+                            <div class="bs_watch"></div>
+                            {$product_promotion_date}
+                        </div>
+                    </div> 
+                    <div class="bs_time_sale_count {$prd_model|display}" data-countdown="{$prd_model}"></div>
+                </li>   
+                <li id="anchorBoxId_{$product_no}" class="bsFade">
+                    <div class="thumbnail">
+                        <div class="prdImg">
+                            <a href="{$link_product_detail}" name="anchorBoxName_{$product_no}">
+                                <img src="{$image_medium}" id="{$image_medium_id}" class="bsPrdImage" alt="{$seo_alt_tag}" />
+                                <img src="{$image_small}" id="{$image_small_id}" class="bsPrdImageOver" alt="{$seo_alt_tag}" />
+                                <span module="product_Imagestyle"><span class="prdIcon {$icon_class_name}" style="background-image:url('{$icon_url}');"></span></span>
+                            </a>
+                            <div class="icon">               
+                                <div class="button">
+                                    <span class="option">{$option_preview_icon}</span><span class="bsWish">{$list_wish_icon}</span><span class="bsCart">{$basket_icon}</span><span class="bsZoom">{$zoom_icon}</span><span class="bsNewWindow"><a href="{$link_product_detail}" target="_blank"><img src="/web/upload/badasonamu/image/icon/bs_icon_prd_new_window.png" art="새 창으로 열기" /></a></span>
+                                </div>
+                            </div> 
+                            <div class="likeButton {$disp_likeprd_class} bsFadeOver">
+                                <button type="button"><span class="title">LIKE</span>{$disp_likeprd_icon}<span class="count">{$disp_likeprd_count}</span></button>
+                            </div>                                           
+                            <div class="bsPromotion"><span class="bsDisplayNone">{$soldout_icon}</span> {$stock_icon} {$recommend_icon} {$new_icon} {$product_icons} {$pickup_icon} {$benefit_icons}</div>
+                            <div class="bsDiscountRate" data-custom="{$product_custom}" data-price="{$product_price}"></div>        
+                            <div class="bsDiscountRate2 {$prd_price_sale|display}">{$prd_price_sale|replace:OFF,}</div>
+                        </div>
+                        
+                        <div class="bsWrap">
+                            <div class="bsInner">
+                                <a href="{$link_product_detail}">
+                                    <div class="description">
+                                        <span class="chk"><input type="checkbox" class="{$product_compare_class} {$product_compare_display|display}" /></span>
+                                        <strong class="name {$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</strong>
+                                        <ul module="product_ListItem" class="spec">
+                                            <li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                            <li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                    <div class="bs_time_sale {$product_promotion_date|display}">             
+                        <div>
+                            <div class="bs_watch"></div>
+                            {$product_promotion_date}
+                        </div>
+                    </div> 
+                    <div class="bs_time_sale_count {$prd_model|display}" data-countdown="{$prd_model}"></div>
+                </li>
+            </ul>                             
+        </div>
+    </div>
+</div>
