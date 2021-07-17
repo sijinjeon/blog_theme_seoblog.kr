@@ -3,8 +3,8 @@ layout: post
 permalink: /posts/seo-checker/
 title: 'SEO Checker를 통해 웹사이트 진단하기'
 date: 2021-07-17 21:24:02 +09:00
-feature: '/img/posts/11/blog_post_header11.jpg'
-background: '/img/posts/11/blog_post_thumbnail11.jpg'
+feature: '/img/posts/11/blog_post_thumbnail11.png'
+background: '/img/posts/11/blog_post_header11.jpg'
 categories:
   - basic
 tags:
